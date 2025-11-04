@@ -8,6 +8,7 @@ import Register from './Register';
 import AllProducts from './pages/AllProducts';
 import MyProducts from './pages/MyProducts';
 import MyBids from './pages/MyBids';
+import CreateProduct from './pages/CreateProduct';
 import './App.css';
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Route path="/all-products" element={<AllProducts />} />
           <Route path="/my-products" element={<MyProducts />} />
           <Route path="/my-bids" element={<MyBids />} />
-          <Route path="/create-product" element={<div>Create Product Page</div>} />
+          <Route path="/create-product" element={<CreateProduct />} />
           <Route path="/dashboard" element={<div>Dashboard Page</div>} />
           <Route path="/product/:id" element={<div>Product Details Page</div>} />
         </Routes>
