@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Login from './Login';
 import Register from './Register';
 import AllProducts from './pages/AllProducts';
+import MyProducts from './pages/MyProducts';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/all-products" element={<AllProducts />} />
-          <Route path="/my-products" element={<div>My Products Page</div>} />
+          <Route path="/my-products" element={<MyProducts />} />
           <Route path="/my-bids" element={<div>My Bids Page</div>} />
           <Route path="/create-product" element={<div>Create Product Page</div>} />
           <Route path="/dashboard" element={<div>Dashboard Page</div>} />
