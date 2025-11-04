@@ -9,6 +9,7 @@ import AllProducts from './pages/AllProducts';
 import MyProducts from './pages/MyProducts';
 import MyBids from './pages/MyBids';
 import CreateProduct from './pages/CreateProduct';
+import ProductDetails from './pages/ProductDetails';
 import './App.css';
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
           <Route path="/my-products" element={<MyProducts />} />
           <Route path="/my-bids" element={<MyBids />} />
           <Route path="/create-product" element={<CreateProduct />} />
+          <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/dashboard" element={<div>Dashboard Page</div>} />
-          <Route path="/product/:id" element={<div>Product Details Page</div>} />
         </Routes>
       </main>
       <Footer />
